@@ -36,20 +36,15 @@
 a:hover {
     text-decoration: none;
 }
+
 .carousel {
     margin-bottom: 30px;
     margin-top: 0px;
     margin-left: 15px;
 }
 
-
- h1 {
-    font-size: 24px;
-}
-
-#a1 {
-    margin-bottom: 4px;
-    margin-left: 4px;
+h1 {
+    font-size: 20px;
 }
 
 #row2 h1{
