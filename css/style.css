@@ -42,10 +42,8 @@ a:hover {
     margin-left: 15px;
 }
 
-#row1 {
-    margin-right: 0px;
-}
-#row1 h1 {
+
+ h1 {
     font-size: 24px;
 }
 
@@ -54,10 +52,6 @@ a:hover {
     margin-left: 4px;
 }
 
-
-#row2{
-    margin-right: 0px;
-}
 #row2 h1{
     font-size: 24px;
 }
