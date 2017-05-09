@@ -217,46 +217,56 @@
           <h4 class="modal-title" id="myModalLabel"> <strong>Hipster Ultimate</strong></h4>
         </div>
         <div class="modal-body">
-          <p><strong>Precio: $100</strong></p>
-          <p><strong>Calificación:</strong></p>
-          <fieldset class="rating"
-            <input type="radio" id="star5" name="rating" value="5" />
-            <label for="star5">5 stars</label>
-            <input type="radio" id="star4" name="rating" value="4" />
-            <label for="star4">4 stars</label>
-            <input type="radio" id="star3" name="rating" value="3" />
-            <label for="star3">3 stars</label>
-            <input type="radio" id="star2" name="rating" value="2" />
-            <label for="star2">2 stars</label>
-            <input type="radio" id="star1" name="rating" value="1" />
-            <label for="star1">1 star</label>
-          </fieldset>
-          <a href="images/camiseta-1.jpg">
-            <img src="images/camiseta-1.jpg" alt="1" style="width:50%">
-            <div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-              Este producto esta agotado
+          <div class="alert alert-info" role="alert"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            Este producto esta agotado
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="images/camiseta-1.jpg">
+                <img src="images/camiseta-1.jpg">
+              </a>
             </div>
-          </a>
-          <ul class="nav nav-tabs">
-            <li><a data-toggle="tab" href="#menu1">Descripción</a></li>
-            <li><a data-toggle="tab" href="#menu2">Comentarios</a></li>
-          </ul>
-
-          <div class="tab-content">
-            <div id="menu1" class="tab-pane fade">
-              <h4>Esta camiseta es muy apetecida por deportistas de alto rendimiento</h4>
+            <div class="col-sm-6">
+              <p><strong>Precio: $100</strong></p>
+              <p><strong>Calificación:</strong></p>
+              <fieldset class="rating"
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5">5 stars</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4">4 stars</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3">3 stars</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2">2 stars</label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1">1 star</label>
+              </fieldset>
             </div>
-            <div id="menu2" class="tab-pane fade">
-              <div class="form-group" id="comentario">
-                <h4>Sebastian Sanderink comento hace 2 dias</h4>
-                <textarea class="form-control" rows="3" id="comment">Ingresa tu comentario</textarea>
+          </div><br>
+          
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#menu1">Descripción</a></li>
+                <li><a data-toggle="tab" href="#menu2">Comentarios</a></li>
+              </ul>
+              <div class="tab-content">
+                <div id="menu1" class="tab-pane fade in active">
+                  <p id="comentario">Esta camiseta es muy apetecida por deportistas de alto rendimiento</p>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                  <div class="form-group" id="comentario">
+                    <p id="comentario">Sebastian Sanderink comento hace 2 dias</p>
+                    <textarea class="form-control" rows="3" id="comment">Ingresa tu comentario</textarea>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
               </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Comprar</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-        	</div>
+          </div>
       	</div>
     	</div>
     </div>
